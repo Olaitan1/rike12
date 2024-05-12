@@ -2,27 +2,38 @@ import React from 'react';
 import Card from './Card';
 import Visa from './Visa';
 import Side from './Side';
-import Home from './assets/home.png'
+import Home from './assets/home.png';
+import Pen from './assets/pen.png';
+import Statistics from './Statistics';
+import Profile from './Profile'
+
 
 
 const Content = () => {
   return (
-    <div className="grid grid-cols-3 m-7 gap-2 max-w-100 ">
-    <div className="col-span-2  max-w-70 ">
+    <div className="grid grid-cols-4 m-7 gap-2 max-w-100  ">
+    <div className="col-span-3  max-w-70 ">
 
       <Card />
-       
-    </div>
+     
+    
+      
+<Statistics/>
+ 
   
+    <div className='mt-10'>
+<Profile/>
+    </div>   
+    </div>
+
+    <div className="col-span-1 bg-gray-100 rounded-md   ">
     
-    <div className="col-span-1 bg-gray-500 rounded-md  py-6  ">
-    
-   
+    <div className='absolute right-14 top-26 z-30 '> <img src={Pen} alt="Icon" className="w-10 h-10 mt-2"/></div>
       <Side/>
     </div>
     
 
-    <div className=' absolute top-36 right-1 z-30 rounded-lg'>    <button className='bg-blue-700 p-2 rounded-md'>$10,600</button></div>
+    <div className=' absolute top-36 right-1 z-30 rounded-lg '>    <button className='bg-blue-700 p-2 rounded-md'>$10,600</button></div>
   </div>
  
   );

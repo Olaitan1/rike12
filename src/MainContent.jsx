@@ -14,7 +14,7 @@ const MainContent = () => {
 <div>
  
       <div className="relative flex ">
-        <div className=" absolute pb-60 pt-6 w-24 bg-blue-500 z-40 fixed left-0 top-0 rounded-tl-3xl rounded-bl-3xl overflow-hidden">
+        <div className=" absolute pb-60 pt-6 w-24 bg-indigo-900 z-40 fixed left-0 top-0 rounded-tl-3xl rounded-bl-3xl overflow-hidden">
             <Sidebar/>
         </div>
        

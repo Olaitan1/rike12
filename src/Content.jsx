@@ -33,7 +33,7 @@ const Content = () => {
     </div>
     
 
-    <div className=' absolute top-36 right-1 z-30 rounded-lg '>    <button className='bg-blue-700 p-2 rounded-md'>$10,600</button></div>
+    <div className=' absolute top-36 right-1 z-30 rounded-lg '>    <button className='bg-indigo-800 p-2 rounded-md'>$10,600</button></div>
   </div>
  
   );

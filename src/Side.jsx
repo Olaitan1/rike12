@@ -5,15 +5,20 @@ import Bag from './assets/bag.png';
 import Netflix from './assets/netflix.png';
 import Pen from './assets/pen.png';
 import Plus from './assets/plus.png';
-import Taxi from './assets/taxi.png'
+import Taxi from './assets/taxi.png';
+import Progress from 'react-circle-progress-bar'
+
+
 
 
 const Side = () => {
     return (
 
     
-   <div className=''>
-    <div className='mt-60 '>
+   <div >
+   <div className='mt-10 ml-10 transform'><Progress progress={38} strokeWidth={1} reduction={0.25} className=" top-0 left-0  "  strokeColor={"#312E81"} /></div>
+    
+    <div className='mt-30'>
     <Visa/>
     </div>
     <div class="col-span-6 md:col-span-2 lg:col-span-1 xl:col-span-4 ">

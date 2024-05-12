@@ -7,7 +7,7 @@ import Money from './assets/money.svg';
 
 const Sidebar = () => {
   return (
-    <div className="h-screen w-64 bg-blue-500 flex flex-col ml-2 ">
+    <div className="h-screen w-64 bg-indigo-900 flex flex-col ml-2 ">
       
       <div className="p-4">
       <img src={Money} alt="Logo"className="  w-5 "/>

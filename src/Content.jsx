@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import Side from './Side';
-import penImage from './assets/image/pencil.png';
+import Biro from './assets/image/biro.png';
 import Statistics from './Statistics';
 import Profile from './Profile'
 
@@ -27,7 +27,7 @@ const Content = () => {
 
     <div className="col-span-1 bg-gray-100 rounded-md   ">
     
-    <div className='absolute right-14 top-26 z-30 '> <img src={penImage} alt="Icon" className="w-10 h-10 mt-2"/></div>
+    <div className='absolute right-14 top-26 z-30 '> <img src={Biro} alt="Icon" className="w-10 h-10 mt-2"/></div>
       <Side/>
     </div>
     

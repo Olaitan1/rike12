@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar';
-import Search from './Search'
+import Search from './Search';
 import Content from './Content';
 import Bell from './assets/bell.png';
 import Man from './assets/man.png';

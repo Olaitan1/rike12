@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card';
 import Visa from './Visa';
 import Bag from './assets/bag.png';
 import Netflix from './assets/netflix.png';

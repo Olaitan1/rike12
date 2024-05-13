@@ -16,7 +16,7 @@ const Side = () => {
 
     
    <div >
-  <div className='mt-7 ml-10 mb-2 transform' style={{  top: '0', left: '0', borderRadius: '100%', width:'65%', height:'100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)',  backgroundColor: '#FFFFFF',  }}>
+  <div className='mt-20 ml-10 mb-16 transform' style={{  top: '0', left: '0', borderRadius: '100%', width:'65%', height:'100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)',  backgroundColor: '#FFFFFF',  }}>
   <Progress
     progress={38}
     strokeWidth={2}
@@ -27,19 +27,19 @@ const Side = () => {
   />
 </div>
     
-    <div className='mt-30'>
+    <div className='mt-30 mb-34'>
     <Visa/>
     </div>
-    <div class="col-span-6 md:col-span-2 lg:col-span-1 xl:col-span-4 ">
-  <div class="container ">
+    <div class="col-span-6 md:col-span-2 lg:col-span-1 xl:col-span-4 mt-36 ">
+  <div class="container  ">
     
-    <div className='flex justify-between mt-14 mb-7'>
+    <div className='flex justify-between mt-14 mb-7 '>
         <p><a href="#" class="font-bold ml-5 text-2xl">Transaction</a> </p>
         <div className='border border-2 rounded-lg bg-red-500 p-3 mr-7'><img src={Plus} alt="Icon" className="w-4  " /></div>
         
     </div>
     <div className=''>
-    <div className='flex justify-between  mt-6'>
+    <div className='flex justify-between  mt-14'>
             
         <div className='flex gap-4'>
         <span className='border border-2 rounded-xl bg-white p-4 ml-5'><img src={Taxi} alt="Icon" className="w-4  " /></span>
@@ -53,7 +53,7 @@ const Side = () => {
         
     </div>
     
-    <div className='flex justify-between  mt-6'>
+    <div className='flex justify-between  mt-10'>
             
         <div className='flex gap-4'>
         <span className='border border-2 rounded-xl bg-white p-3 ml-5'><img src={Bag} alt="Icon" className="w-4  " /></span>
@@ -66,7 +66,7 @@ const Side = () => {
         <span class="mr-7">-$142.00</span>
         
     </div>
-    <div className='flex justify-between  mt-6 '>
+    <div className='flex justify-between  mt-10 '>
             
         <div className='flex gap-4 '>
         <span className='border border-2 rounded-xl bg-white p-3 ml-5'><img src={Netflix} alt="Icon" className="w-4  " /></span>

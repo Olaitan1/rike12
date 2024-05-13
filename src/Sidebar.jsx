@@ -1,8 +1,8 @@
 import React from 'react';
-import Chart from './assets/chart.svg';
-import Credit from './assets/credit.svg';
-import Wallet from './assets/wallet.svg';
-import Money from './assets/money.svg';
+import Chart from './assets/pie.png';
+import Credit from './assets/credit.png';
+import Wallet from './assets/wallet.png';
+import Money from './assets/wallet.png';
 
 
 const Sidebar = () => {

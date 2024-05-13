@@ -15,7 +15,7 @@ const Side = () => {
 
     
    <div >
-  <div className='mt-20 ml-10 mb-16 transform' style={{  top: '0', left: '0', borderRadius: '100%', width:'65%', height:'100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)',  backgroundColor: '#FFFFFF',  }}>
+  <div className='mt-20 ml-12 mb-16 transform' style={{  top: '0', left: '0', borderRadius: '100%', width:'65%', height:'100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)',  backgroundColor: '#FFFFFF',  }}>
   <Progress
     progress={38}
     strokeWidth={2}

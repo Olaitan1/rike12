@@ -19,7 +19,7 @@ const MainContent = () => {
         </div>
        
         <div className=" w-screen ml-16  bg-gray-50 rounded-3xl z-50">
-        <div className=' relative top-36 right-2 rounded-lg'><img src={Home} alt="Image" className="w-5 rounded-md"/></div>
+        <div className=' relative top-36 right-5 rounded-lg'><img src={Home} alt="Image" className="w-10 rounded-md"/></div>
         <div className='flex m-7 gap-2 max-w-100  mt-3 justify-between'>
   <div className='flex flex-row justify-around gap-20  '>
     <div className='    '><Search/></div>

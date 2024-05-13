@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import Side from './Side';
-import penImage from "./assets/pen.png";
+import penImage from './assets/image/pencil.png';
 import Statistics from './Statistics';
 import Profile from './Profile'
 

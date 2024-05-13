@@ -30,3 +30,7 @@ dist-ssr
 .vercel
 /dist
 /.vercel
+/index.html
+/package-lock.json
+/vite.config.js
+/package.json

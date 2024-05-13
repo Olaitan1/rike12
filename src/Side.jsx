@@ -3,7 +3,6 @@ import Card from './Card';
 import Visa from './Visa';
 import Bag from './assets/bag.png';
 import Netflix from './assets/netflix.png';
-import Pen from './assets/pen.png';
 import Plus from './assets/plus.png';
 import Taxi from './assets/taxi.png';
 import Progress from 'react-circle-progress-bar'

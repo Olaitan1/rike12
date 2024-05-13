@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from './Card';
 import Side from './Side';
-import Biro from './assets/image/biro.png'
 import Statistics from './Statistics';
-import Profile from './Profile'
+import Profile from './Profile';
+import Biro from './assets/pen.png'
 
 
 

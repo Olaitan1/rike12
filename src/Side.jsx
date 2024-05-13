@@ -16,7 +16,16 @@ const Side = () => {
 
     
    <div >
-   <div className='mt-10 ml-10 transform'><Progress progress={38} strokeWidth={1} reduction={0.25} className=" top-0 left-0  "  strokeColor={"#312E81"} /></div>
+  <div className='mt-7 ml-10 mb-2 transform' style={{  top: '0', left: '0', borderRadius: '100%', width:'65%', height:'100%', boxShadow: '0 2px 4px rgba(0,0,0,0.1)',  backgroundColor: '#FFFFFF',  }}>
+  <Progress
+    progress={38}
+    strokeWidth={2}
+    reduction={0.05}
+    paddingTop={30}
+    strokeColor={"#312E81"}
+    
+  />
+</div>
     
     <div className='mt-30'>
     <Visa/>

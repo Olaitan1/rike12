@@ -17,12 +17,13 @@ const Content = () => {
       <Card />
      
     
-      
-<Statistics/>
+   <div className='mt-10'>
+    <Statistics/></div>   
+
  
   
     <div className='mt-10'>
-<Profile/>
+          <Profile/>
     </div>   
     </div>
 

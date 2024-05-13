@@ -13,8 +13,8 @@ const Sidebar = () => {
       <img src={Money} alt="Logo"className="  w-5 "/>
       </div>
 
-      
-      <div className="flex flex-col mt-40">
+      <div className='flex justify-between mt-40'>
+      <div className=" mt-60">
         <div className="p-3">
         <img src={Chart} alt="Icon"className="   w-5 hover:bg-blue-600"/>
         </div>
@@ -25,6 +25,7 @@ const Sidebar = () => {
         <img src={Wallet} alt="Icon"className=" w-5 hover:bg-blue-600"/>
         </div>
       </div>
+    </div>
     </div>
   );
 };

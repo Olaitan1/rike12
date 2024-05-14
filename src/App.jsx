@@ -2,7 +2,7 @@ import React from 'react';
 
 import MainContent from './MainContent';
 
-function Dashboard() {
+function App() {
   return (
     <div>
     
@@ -14,4 +14,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default App;

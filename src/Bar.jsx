@@ -6,12 +6,12 @@ const { CanvasJSChart } = CanvasJSReact;
 class App extends Component {
 	render() {
 		const containerStyle = {
-			height: "400px", // Adjust the height of the parent container
-			backgroundColor: "#f0f0f0" // Set the background color of the parent container
+			height: "400px", 
+			
 		};
 
 		const options = {
-			height: 300, // Adjust the height of the chart itself
+			height: 300, 
 			axisX: {
 				labelFormatter: function(e) {
 					const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -19,8 +19,8 @@ class App extends Component {
 				}
 			},
 			axisY: {
-				gridThickness: 0, // Hide the y-axis grid lines
-				tickLength: 0, // Hide the y-axis tick marks
+				gridThickness: 0, 
+				tickLength: 0, 
 				labelFormatter: function() { 
 					return "";
 				},
